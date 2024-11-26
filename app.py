@@ -32,3 +32,33 @@ st.markdown("# Main page 🎈")
 st.sidebar.markdown("# Main page 🎈")
 
 st.sidebar.page_link(".\pages\evaluation.py",label="Mame")
+
+if 'result' not in st.session_state:
+    st.session_state.result = 0
+
+# No argument in the callback; current value to be added is grabbed directly from session state
+def my_callback():
+    # Get submitted value
+    temperature = st.session_state.temperature
+    # Append string to key of widget
+    st.session_state.my_key =  st.session_state.my_key + str(temperature)
+    # Add value to non-widget key in session state
+    st.session_state.result += temperature
+
+
+with st.form("foo"):
+    st.text_area("label", key="my_key")
+    st.markdown(f'#### The total temperature is {st.session_state.result:.2f}.')
+    temp = st.slider(
+        "Temperature",
+        min_value=0.0,
+        max_value=100.0,
+        value=1.0,
+        key='temperature'
+    )
+
+    # Option 1:
+    submit = st.form_submit_button(
+        "compute",
+        on_click=my_callback
+    )
