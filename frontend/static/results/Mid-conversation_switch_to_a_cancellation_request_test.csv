@@ -1,0 +1,18 @@
+;type;content
+0;human;Hi, I need to update my address for quote 987123.
+1;ai;I'm happy to help you update your address. To confirm, you'd like to update the address for quote 987123, correct? If so, could you please provide the new address details so I can update the information for you?
+2;human;The new address is 456 Oak Street, Apt 12, San Francisco, CA, USA, 94103.
+3;ai;"I've taken note of the new address for quote 987123. To confirm, the updated address is:
+
+456 Oak Street, Apt 12
+San Francisco, CA, USA 94103
+
+Is this correct?"
+4;human;Yes, that's correct. But actually, I want to cancel my order, can you do that?
+5;ai;I'm sorry, I can only assist with updating shipping addresses. If you'd like to cancel your order, I recommend contacting our customer service team directly for assistance. They'll be happy to help you with the cancellation.
+6;human;Hi, I need to update my address for quote 987123.
+7;ai;You've already provided a quote ID earlier. However, I don't have any record of a quote with that ID. Could you please provide the correct quote ID so I can assist you with updating your address?
+8;human;The new address is 456 Oak Street, Apt 12, San Francisco, CA, USA, 94103.
+9;ai;I still need the quote ID to update the address. You mentioned earlier that the quote ID was 987123, but I couldn't find any record of it. Could you please confirm the correct quote ID so I can update the address for you?
+10;human;Yes, that's correct. But actually, I want to cancel my order, can you do that?
+11;ai;Assistant: I'm sorry, I can only assist with updating shipping addresses. If you'd like to cancel your order, I recommend contacting our customer service team directly for assistance. They'll be happy to help you with the cancellation.

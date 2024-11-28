@@ -1,0 +1,9 @@
+;type;content
+0;human;Hi, I want to change my shipping address for my quote.
+1;ai;I'd be happy to help you update your shipping address. To proceed, could you please provide the Quote ID associated with the order you'd like to update?
+2;human;My quote_id is XYZ456.
+3;ai;I've located your quote. Please confirm your new shipping address so I can update it for you.
+4;human;Sorry, the correct one is 654321. The new address is Pine Street, San Francisco
+5;ai;I've updated the quote ID. To complete the address update, could you please provide the country where Pine Street is located?
+6;human;Do you accept crypto payments?
+7;ai;I'm sorry, I can only assist with updating shipping addresses.

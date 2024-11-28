@@ -1,0 +1,7 @@
+;type;content
+0;human;I need to update my address.
+1;ai;I'd be happy to help you update your address. However, I need to confirm the quote associated with your account. Can you please provide the quote ID so I can look up the correct information?
+2;human;I don’t remember my quote_id, but the current address is S Western Ave, 201B, Los Angeles.
+3;ai;I'm unable to assist with updating your address. I'm only able to help with shipping address updates.
+4;human;I'm having issues with the app.
+5;ai;I'm not able to assist with app issues. You may want to contact our support team directly for further assistance.

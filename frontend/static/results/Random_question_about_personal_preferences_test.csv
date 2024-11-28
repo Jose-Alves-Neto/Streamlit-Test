@@ -1,0 +1,31 @@
+;type;content
+0;human;Hi, I'd like to change the address for quote 789654.
+1;ai;"To update the address for quote 789654, I'll need some information from you. 
+
+Could you please provide the following details:
+
+1. Country
+2. City
+3. Street
+4. Door number
+5. Postal code
+
+This will help me update the address correctly."
+2;human;The new address is S Western Ave, 201B, Los Angeles, CA, USA, 90001.
+3;ai;"Here's the information you provided for quote 789654:
+
+1. Country: USA
+2. City: Los Angeles
+3. Street: S Western Ave
+4. Door number: 201B
+5. Postal code: 90001
+
+Is this information correct?"
+4;human;Yes, that’s correct. Also, what’s your favorite color?
+5;ai;I'm glad the address was updated correctly. I'm a large language model, I don't have personal preferences, including favorite colors. Is there anything else I can help you with?
+6;human;Hi, I'd like to change the address for quote 789654.
+7;ai;You've already updated the address for quote 789654 earlier. Is there anything else you'd like to do or is there a different quote you'd like to update?
+8;human;The new address is S Western Ave, 201B, Los Angeles, CA, USA, 90001.
+9;ai;You've already confirmed the same address for quote 789654 earlier. I don't have any new information to update.
+10;human;Yes, that’s correct. Also, what’s your favorite color?
+11;ai;Error code: 429 - {'error': {'message': 'Request limit exceeded'}}

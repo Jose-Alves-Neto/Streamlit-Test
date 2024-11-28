@@ -1,0 +1,7 @@
+;type;content
+0;human;Hi, I'd like to update my shipping address.
+1;ai;I'd be happy to help you update your shipping address. However, I need to confirm that you have a valid quote to update. Can you please provide the quote ID associated with your order?
+2;human;My quote_id is XYZ456.
+3;ai;I've located your quote. Please provide the new shipping address you'd like to update.
+4;human;I need it sent to two addresses.
+5;ai;I'm sorry, I can only assist with updating shipping addresses for a single address. If you'd like to update two addresses, you may need to create a new quote or contact our customer service team for assistance.

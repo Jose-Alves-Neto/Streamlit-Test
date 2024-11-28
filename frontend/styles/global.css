@@ -1,0 +1,8 @@
+[data-testid="stMainBlockContainer"] {
+    width:100%;
+    max-width: 80rem;
+}
+
+h1, h2 {
+    padding-top: 0;
+}

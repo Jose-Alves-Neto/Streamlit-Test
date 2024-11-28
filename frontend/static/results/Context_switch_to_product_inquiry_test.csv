@@ -1,0 +1,13 @@
+;type;content
+0;human;Hi, I need to change the address for quote 98765.
+1;ai;I'd be happy to help you update the address for quote 98765. To confirm, could you please provide the quote ID 98765?
+2;human;The new address is S Central Ave, 123A, New York, NY, USA, 654321.
+3;ai;I've taken note of the new address for quote 98765. However, I don't have the quote information in my system. Could you please provide the quote ID again to ensure I have the correct quote to update?
+4;human;Yes, that’s correct. By the way, do you sell laptops?
+5;ai;I'm sorry, I can only assist with updating shipping addresses.
+6;human;Hi, I need to change the address for quote 98765.
+7;ai;I've already taken note of the quote ID 98765 earlier. You mentioned the new address as S Central Ave, 123A, New York, NY, USA, 654321. Is that correct?
+8;human;The new address is S Central Ave, 123A, New York, NY, USA, 654321.
+9;ai;I've confirmed the new address for quote 98765. Is there anything else you'd like to update or would you like to proceed with the changes?
+10;human;Yes, that’s correct. By the way, do you sell laptops?
+11;ai;I'm sorry, I can only assist with updating shipping addresses.
