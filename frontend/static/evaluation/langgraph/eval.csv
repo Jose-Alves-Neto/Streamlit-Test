@@ -1,0 +1,3 @@
+id;test;message;user;Clarity;Accuracy;Appropriate Tone;Context Relevance;Service Context
+1;Attempt_to_add_extra_products_mid-request_test;I'm happy to help. However, I'm a shipping system, I can only assist with updating shipping addresses. If you need to add a product, you may want to contact the store directly.;Jose;2;4;4;2;1
+6;Conversation_with_multiple_field_corrections_test;You've already updated your shipping address for quote 654321 earlier. Is there anything else I can assist you with?;Jose;5;3;4;5;2
