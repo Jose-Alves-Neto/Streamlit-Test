@@ -82,7 +82,7 @@ def doc_selector():
     if (os.path.isfile(path)):
         notes = pd.read_csv(path, sep=";")
 
-    criterias = ["Clarity", "Accuracy", "Appropriate Tone", "Context Relevance", "Service Context"]
+    criterias = ["Clarity", "Accuracy", "AT", "CR", "SC"]
     criteria = {}
     values = container.columns(len(criterias))
 
