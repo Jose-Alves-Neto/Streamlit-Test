@@ -1,3 +1,3 @@
-;type;content
-0;human;Can I pay through a payment app?
-1;ai;Error code: 429 - {'error': {'message': 'Request limit exceeded'}}
+,type,content
+0,human,Can I pay through a payment app?
+1,ai,"I'm afraid I can only help with updating quote information. I'm not capable of assisting with payments or any other tasks. If you need to update your quote, please provide me with your quote ID so I can assist you."

@@ -1,25 +1,11 @@
-;type;content
-0;human;Hi, I'd like to update my shipping address.
-1;ai;I'd be happy to help you update your shipping address. However, I need to confirm that you have a valid quote to update. Can you please provide the quote ID associated with your order?
-2;human;I don’t remember my quote_id, but the current address is S Western Ave, 201B, Los Angeles.
-3;ai;I'm unable to assist with updating your shipping address without a valid quote ID. However, I can try to look up your account information. Can you please provide your order number or the email address associated with your order?
-4;human;Try 00000XXX.
-5;ai;I'm unable to locate your order with the provided order number. Can you please provide a different order number or the email address associated with your order?
-6;human;Oh, I remember now! It’s 123. The new address is S Central Ave, 123A, New York, NY, USA, 654321.
-7;ai;"**Collected Data:**
-
-1. Order Number: 123
-2. Current Address: S Western Ave, 201B, Los Angeles
-3. New Address: S Central Ave, 123A, New York, NY, USA, 654321
-
-Is all the information correct?"
-8;human;Yes, that’s correct.
-9;ai;"**Update Confirmed**
-
-Your shipping address has been updated to:
-
-1. Order Number: 123
-2. Current Address: S Western Ave, 201B, Los Angeles
-3. New Address: S Central Ave, 123A, New York, NY, USA, 654321
-
-Thank you for confirming the information."
+,type,content
+0,human,"Hi, I'd like to update my shipping address."
+1,ai,"How can I assist you with updating your shipping address? To proceed, I'll need to know your quote ID associated with the shipping address you'd like to update. Can you please provide me with the quote ID?"
+2,human,"I don’t remember my quote_id, but the current address is S Western Ave, 201B, Los Angeles."
+3,ai,"Can you try to recall the quote ID associated with your shipping address? If you're unable to find it, could you please let me know if the quote ID starts with a number, letter or a combination of both?"
+4,human,Try 00000XXX.
+5,ai,That doesn't appear to be a valid quote ID. Can you please try again?
+6,human,"Oh, I remember now! It’s 123. The new address is S Central Ave, 123A, New York, NY, USA, 654321."
+7,ai,"I've noted down the quote ID as 123. To proceed with the updates, please confirm that the new shipping address is: S Central Ave, 123A, New York."
+8,human,"Yes, that’s correct."
+9,ai,Please confirm that the new City is New York and the new State is USA and the new Postal Code is 654321.

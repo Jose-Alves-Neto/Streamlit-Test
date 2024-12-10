@@ -1,18 +1,13 @@
-;type;content
-0;human;Hi, I need to update my address for quote 987123.
-1;ai;I'm happy to help you update your address. To confirm, you'd like to update the address for quote 987123, correct? If so, could you please provide the new address details so I can update the information for you?
-2;human;The new address is 456 Oak Street, Apt 12, San Francisco, CA, USA, 94103.
-3;ai;"I've taken note of the new address for quote 987123. To confirm, the updated address is:
-
-456 Oak Street, Apt 12
-San Francisco, CA, USA 94103
-
-Is this correct?"
-4;human;Yes, that's correct. But actually, I want to cancel my order, can you do that?
-5;ai;I'm sorry, I can only assist with updating shipping addresses. If you'd like to cancel your order, I recommend contacting our customer service team directly for assistance. They'll be happy to help you with the cancellation.
-6;human;Hi, I need to update my address for quote 987123.
-7;ai;You've already provided a quote ID earlier. However, I don't have any record of a quote with that ID. Could you please provide the correct quote ID so I can assist you with updating your address?
-8;human;The new address is 456 Oak Street, Apt 12, San Francisco, CA, USA, 94103.
-9;ai;I still need the quote ID to update the address. You mentioned earlier that the quote ID was 987123, but I couldn't find any record of it. Could you please confirm the correct quote ID so I can update the address for you?
-10;human;Yes, that's correct. But actually, I want to cancel my order, can you do that?
-11;ai;Assistant: I'm sorry, I can only assist with updating shipping addresses. If you'd like to cancel your order, I recommend contacting our customer service team directly for assistance. They'll be happy to help you with the cancellation.
+,type,content
+0,human,"Hi, I need to update my address for quote 987123."
+1,ai,"You are updating the quote 987123. To proceed, please provide the new information you would like to update, such as country, city, street, door number, postal code, or state."
+2,human,"The new address is 456 Oak Street, Apt 12, San Francisco, CA, USA, 94103."
+3,ai,"Please confirm that the correct quote_id is 987123, new country is USA, city is San Francisco, street is 456 Oak Street, door number is Apt 12, postal code is 94103 and state is CA."
+4,human,"Yes, that's correct. But actually, I want to cancel my order, can you do that?"
+5,ai,"I can not help with that. I'm here to help you update your quote information, but I'm not able to assist with canceling your order. If you'd like to make changes to your quote, I'd be happy to help with that."
+6,human,"Hi, I need to update my address for quote 987123."
+7,ai,"You are updating the quote 987123. To proceed, please provide the new information you would like to update, such as country, city, street, door number, postal code, or state."
+8,human,"The new address is 456 Oak Street, Apt 12, San Francisco, CA, USA, 94103."
+9,ai,"Please confirm that the correct quote_id is 987123, new country is USA, city is San Francisco, street is 456 Oak Street, door number is Apt 12, postal code is 94103 and state is CA."
+10,human,"Yes, that's correct. But actually, I want to cancel my order, can you do that?"
+11,ai,"Assistant: I'm not able to help with that. I'm here to help you update your quote information for quote 987123. If you'd like to update any other information, please let me know."

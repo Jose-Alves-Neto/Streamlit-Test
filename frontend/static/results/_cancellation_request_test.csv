@@ -1,3 +1,3 @@
-;type;content
-0;human;Cancel my order.
-1;ai;I'm not able to assist with cancelling orders. If you need to make changes to your order, I can help with updating your shipping address.
+,type,content
+0,human,Cancel my order.
+1,ai,"I'm happy to help you with updating your quote information. I'm here to assist you with changes to your quote. To proceed, could you please provide your quote_id so I can access your quote information?"

@@ -1,3 +1,5 @@
-;type;content
-0;human;I gave the phone number 555123.
-1;ai;I'm not able to assist with phone number updates.
+,type,content
+0,human,I gave the phone number 555123.
+1,ai,"I'm here to help you update your quote information. 
+
+To proceed, I need your quote ID. Please provide it so I can assist you."

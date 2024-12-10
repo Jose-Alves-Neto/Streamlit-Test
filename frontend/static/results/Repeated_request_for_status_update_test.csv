@@ -1,3 +1,3 @@
-;type;content
-0;human;What's the status of my order?
-1;ai;I'm not able to check the status of your order. I'm here to help with updating shipping addresses.
+,type,content
+0,human,What's the status of my order?
+1,ai,"I can only help with updating quote informations. I'm not able to assist with your order status. If you'd like to update your quote, I'd be happy to help."

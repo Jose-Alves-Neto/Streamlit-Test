@@ -1,5 +1,5 @@
-;type;content
-0;human;Hi, I want to change my shipping address
-1;ai;I'd be happy to help you update your shipping address. However, I need to confirm that you have a valid quote to update. Can you please provide the Quote ID so I can assist you further?
-2;human;Forget, now I want a cake recipe
-3;ai;I'm afraid I can only assist with updating shipping addresses. If you need help with something else, I'd be happy to try and assist you with a different topic.
+,type,content
+0,human,"Hi, I want to change my shipping address"
+1,ai,"To update your shipping address, I'll need to make sure I'm working with the correct quote. Can you please provide your quote ID so I can assist you with the changes?"
+2,human,"Forget, now I want a cake recipe"
+3,ai,"I can only help with updating quote information. Unfortunately, I'm not able to assist with cake recipes."

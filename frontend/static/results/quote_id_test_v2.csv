@@ -1,21 +1,12 @@
-;type;content
-0;human;I need to update my address.
-1;ai;I'd be happy to help you update your address. However, I need to confirm the quote associated with your account. Can you please provide the quote ID so I can look up the correct information?
-2;human;I don’t remember my quote_id, but the current address is S Western Ave, 201B, Los Angeles.
-3;ai;I'm unable to assist with updating your address. I'm only able to help with shipping address updates.
-4;human;the quote id is qu0t3
-5;ai;I'm still unable to assist with updating your address. I'm only able to help with shipping address updates.
-6;human;It’s 123. The new address is S Central Ave, 123A, New York, NY, USA, 654321.
-7;ai;"**Current Information:**
-- Current Address: S Western Ave, 201B, Los Angeles
-- New Address: S Central Ave, 123A, New York, NY, USA, 654321
-- Quote ID: 123
-
-Is all the information correct?"
-8;human;Yes, that’s correct.
-9;ai;"**Address Update Confirmed**
-
-Your address has been updated to:
-S Central Ave, 123A, New York, NY, USA, 654321
-
-Thank you for confirming the information."
+,type,content
+0,human,I need to update my address.
+1,ai,"I'm happy to help you update your quote information. To proceed, I'll need the quote ID associated with your account. Please provide the quote ID so we can proceed with the update."
+2,human,"I don’t remember my quote_id, but the current address is S Western Ave, 201B, Los Angeles."
+3,ai,"To proceed, I still need the quote ID. The address you provided is helpful information, but it's not what I'm looking for. Please provide the quote ID so I can assist you with the update."
+4,human,the quote id is qu0t3
+5,ai,This quote id was not found. Please re-enter a valid quote id.
+6,ai,(I remember the conversation history)
+7,human,"It’s 123. The new address is S Central Ave, 123A, New York, NY, USA, 654321."
+8,ai,"Please confirm that the quote ID is 123, the new address is S Central Ave, 123A, New York, the state is NY, and the postal code is 654321 and the country is the USA."
+9,human,"Yes, that’s correct."
+10,ai,Your quote information has been successfully updated.

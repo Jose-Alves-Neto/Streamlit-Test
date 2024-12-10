@@ -1,3 +1,13 @@
-;type;content
-0;human;Can I check the quote_id QTE123ABC?
-1;ai;I'm not able to assist with quote information.
+,type,content
+0,human,Can I check the quote_id QTE123ABC?
+1,ai,"I'd be happy to help you with updating the quote information for QTE123ABC.
+
+However, I need you to provide the new information you'd like to update. You can change any of the following details:
+
+Country, City, Street, Door Number, Postal Code, or State.
+
+Please let me know the new information, and I'll be happy to assist you."
+2,human,end
+3,ai,"It seems like you need help with something else, but I can only assist with updating the quote information for QTE123ABC. 
+
+Can you please provide the new information you'd like to update (Country, City, Street, Door Number, Postal Code, or State)?"

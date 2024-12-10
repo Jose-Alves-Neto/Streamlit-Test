@@ -1,54 +1,13 @@
-;type;content
-0;human;Hi, I want to change my shipping address for my quote.
-1;ai;I'd be happy to help you update your shipping address. To proceed, could you please provide the Quote ID associated with the order you'd like to update?
-2;human;My quote_id is XYZ456.
-3;ai;I've located your quote. Please confirm your new shipping address, and I'll update it for you.
-4;human;Sorry, the correct one is 654321. The new address is Pine Street, San Francisco
-5;ai;I've updated the quote with the correct ID. However, I still need some additional information to complete the update. Could you please provide the country where Pine Street is located and the door number of your address?
-6;human;The door number is Apt 5, the state is CA, country USA, and the postal code is 94107.
-7;ai;"Here is the data collected so far:
+,type,content
+0,human,"Hi, I want to change my shipping address for my quote."
+1,ai,"To update your shipping address for the quote, I'll need to know the quote ID associated with your order. Can you please tell me the quote ID?"
+2,human,My quote_id is XYZ456.
+3,ai,"Now that we have the quote ID, what are the new shipping address details you'd like to update? Please let me know the new information for the relevant fields."
+4,human,"Sorry, the correct one is 654321. The new address is Pine Street, San Francisco"
+5,ai,"I've updated the quote ID to 654321. Just to confirm, the new address details are: 
+ Street: Pine Street
+ City: San Francisco
 
- Quote ID: 654321
- New Shipping Address:
-  Street: Pine Street
-  Apartment Number: Apt 5
-  City: San Francisco
-  State: CA
-  Country: USA
-  Postal Code: 94107
-
-Is this information correct?"
-8;human;Yes, please confirm.
-9;ai;"I have confirmed that the information is correct. Your shipping address for quote 654321 has been updated to:
-
- Quote ID: 654321
- New Shipping Address:
-  Street: Pine Street
-  Apartment Number: Apt 5
-  City: San Francisco
-  State: CA
-  Country: USA
-  Postal Code: 94107
-
-Thank you for confirming."
-10;human;Hi, I want to change my shipping address for my quote.
-11;ai;You've already updated your shipping address for quote 654321 earlier. Is there anything else I can assist you with?
-12;human;My quote_id is XYZ456.
-13;ai;I’m sorry, I can only assist with updating shipping addresses.
-14;human;Sorry, the correct one is 654321. The new address is Pine Street, San Francisco
-15;ai;Assistant: I've located your quote. However, I noticed that the address you provided is missing some information. Could you please provide the country where Pine Street is located and the door number of your address?
-16;human;The door number is Apt 5, the state is CA, country USA, and the postal code is 94107.
-17;ai;"Assistant: Here is the data collected so far:
-
- Quote ID: 654321
- New Shipping Address:
-  Street: Pine Street
-  Apartment Number: Apt 5
-  City: San Francisco
-  State: CA
-  Country: USA
-  Postal Code: 94107
-
-Is this information correct?"
-18;human;Yes, please confirm.
-19;ai;Error code: 429 - {'error': {'message': 'Request limit exceeded'}}
+Are these details correct, except for the quote_id (which is already updated to 654321)?"
+6,human,"The door number is Apt 5, the state is CA, country USA, and the postal code is 94107."
+7,ai,I have updated the quote informations.

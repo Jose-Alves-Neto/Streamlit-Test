@@ -1,47 +1,21 @@
-;type;content
-0;human;Hi, I'd like to update the address for quote 654321.
-1;ai;"To update the address for quote 654321, I'll need some additional information from you. 
-
-Could you please provide the following details:
-
-1. Country
-2. City
-3. Street
-4. Door number
-5. Postal code
-
-This will help me update the address correctly."
-2;human;The new address is S Sunset Blvd, 789, New York, NY, USA, 10001.
-3;ai;"Here's the information you provided to update the address for quote 654321:
-
-1. Country: USA
-2. City: New York
-3. Street: S Sunset Blvd
-4. Door number: 789
-5. Postal code: 10001
-
-Is this information correct?"
-4;human;Yes, but can you also help me track my package?
-5;ai;I'm sorry, I can only assist with updating shipping addresses. If you need to track your package, I recommend contacting the shipping carrier directly or checking their website for tracking information.
-6;human;Hi, I'd like to update the address for quote 654321.
-7;ai;"You've already updated the address for quote 654321 earlier. The updated information is:
-
-1. Country: USA
-2. City: New York
-3. Street: S Sunset Blvd
-4. Door number: 789
-5. Postal code: 10001
-
-Is this information still correct?"
-8;human;The new address is S Sunset Blvd, 789, New York, NY, USA, 10001.
-9;ai;"The information you provided is the same as the previous update. I'll confirm that the address for quote 654321 remains:
-
-1. Country: USA
-2. City: New York
-3. Street: S Sunset Blvd
-4. Door number: 789
-5. Postal code: 10001
-
-Is this information still correct?"
-10;human;Yes, but can you also help me track my package?
-11;ai;I'm sorry, I can only assist with updating shipping addresses. If you need to track your package, I recommend contacting the shipping carrier directly or checking their website for tracking information.
+,type,content
+0,human,"Hi, I'd like to update the address for quote 654321."
+1,ai,I'd be happy to help you update the information for quote 654321. What information would you like to change?
+2,human,"The new address is S Sunset Blvd, 789, New York, NY, USA, 10001."
+3,ai,"Are the new information correct: 
+City: New York
+Street: S Sunset Blvd
+Door Number: 789
+Postal Code: 10001
+State: NY
+Country: USA"
+4,human,"Yes, but can you also help me track my package?"
+5,ai,"I can only assist with updating quote information. I'm not able to help with tracking packages. If you'd like to proceed with the update, please confirm that the information is correct for quote 654321."
+6,human,"Hi, I'd like to update the address for quote 654321."
+7,ai,"To confirm, you previously updated the information for quote 654321 with a new address. If you'd like to make any further changes, please let me know. What information would you like to change or update?"
+8,human,"The new address is S Sunset Blvd, 789, New York, NY, USA, 10001."
+9,ai,"I cannot confirm if you are trying to update the same information. If the address has not changed, I need new information to update the quote 654321"
+10,human,"Yes, but can you also help me track my package?"
+11,ai,I can only assist with updating quote information. I'm not able to help with tracking packages. Please provide the correct new information for quote 654321 so I can assist you with the update.
+12,human,end
+13,ai,"I'm happy to help you, but it seems like you didn't provide a valid quote_id. Could you please provide a valid quote_id so I can assist you?"

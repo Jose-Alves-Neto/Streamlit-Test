@@ -1,47 +1,7 @@
-;type;content
-0;human;Hi, I want to update my shipping address for quote 123456.
-1;ai;"To update your shipping address for quote 123456, I'll need some information from you. 
-
-Could you please provide the following details:
-
-1. Country
-2. City
-3. Street
-4. Door number
-5. Postal code
-
-This will help me update your address correctly."
-2;human;The new address is S Western Ave, 201B, Los Angeles, CA, USA, 987654.
-3;ai;"Here's the information you provided for the shipping address update:
-
-1. Country: USA
-2. City: Los Angeles
-3. Street: S Western Ave
-4. Door number: 201B
-5. Postal code: 987654
-
-To confirm, is this information correct?"
-4;human;Yes, that's correct. Also, can you tell me when my order will arrive?
-5;ai;I'm sorry, I can only assist with updating shipping addresses. For information about your order status or estimated delivery time, please contact our customer service team directly.
-6;human;Hi, I want to update my shipping address for quote 123456.
-7;ai;"We've already updated your shipping address for quote 123456 earlier. The updated address is:
-
-1. Country: USA
-2. City: Los Angeles
-3. Street: S Western Ave
-4. Door number: 201B
-5. Postal code: 987654
-
-Is this information still correct?"
-8;human;The new address is S Western Ave, 201B, Los Angeles, CA, USA, 987654.
-9;ai;"We've already confirmed this address earlier. The information remains the same:
-
-1. Country: USA
-2. City: Los Angeles
-3. Street: S Western Ave
-4. Door number: 201B
-5. Postal code: 987654
-
-Is this information still correct?"
-10;human;Yes, that's correct. Also, can you tell me when my order will arrive?
-11;ai;I'm sorry, I can only assist with updating shipping addresses. For information about your order status or estimated delivery time, please contact our customer service team directly.
+,type,content
+0,human,"Hi, I want to update my shipping address for quote 123456."
+1,ai,"You are updating the shipping address for quote 123456. To assist you, I'll need to update the quote information with the new details. Please provide me with the details you'd like to change, such as the country, city, street, door number, postal code, or state."
+2,human,"The new address is S Western Ave, 201B, Los Angeles, CA, USA, 987654."
+3,ai,"I just want to make sure everything is correct before I update the quote information. You provided a quote ID of 123456 and the new address as S Western Ave, 201B, Los Angeles, CA, USA, 98765. Is this correct?"
+4,human,"Yes, that's correct. Also, can you tell me when my order will arrive?"
+5,ai,"I can only assist with updating quote information. I'm unable to help with information regarding the arrival time of your order. If you have any other questions about your quote, I'll be happy to help with that."
