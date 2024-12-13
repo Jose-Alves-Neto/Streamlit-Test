@@ -73,7 +73,7 @@ def doc_selector():
 
     db = []
     if doc_selection != None:
-        db = pd.read_csv(doc_selection, sep=";", skiprows=1, names=["type","content"])
+        db = pd.read_csv(doc_selection, sep=",", skiprows=1, names=["type","content"])
         container.text_area("Log",value=f"{format_chat(db.to_numpy()[st.session_state.current:st.session_state.current+2])}", disabled=True)
     else:
         container.text_area("Log", disabled=True)
@@ -106,6 +106,8 @@ def doc_selector():
             res.to_csv(path, sep=";", index=False)
         else:
             res.merge(notes,how="outer").drop_duplicates(["user","id","test"],keep='last').to_csv(path, sep=";", index=False)
+
+        st.toast("Saved sucessfully!")
         return
 
     _, _, _, counter  = container.columns([1,3, 1,1],vertical_alignment="center")

@@ -1,3 +1,90 @@
-id;test;message;user;Clarity;Accuracy;Appropriate Tone;Context Relevance;Service Context
-1;Attempt_to_add_extra_products_mid-request_test;I'm happy to help. However, I'm a shipping system, I can only assist with updating shipping addresses. If you need to add a product, you may want to contact the store directly.;Jose;2;4;4;2;1
-6;Conversation_with_multiple_field_corrections_test;You've already updated your shipping address for quote 654321 earlier. Is there anything else I can assist you with?;Jose;5;3;4;5;2
+id;test;message;user;Clarity;Accuracy;AT;CR;SC;Appropriate Tone;Context Relevance;Service Context
+1;Attempt_to_add_extra_products_mid-request_test;I'm happy to help. However, I'm a shipping system, I can only assist with updating shipping addresses. If you need to add a product, you may want to contact the store directly.;Jose;2;4;;;;4.0;2.0;1.0
+1;Cancellation_request_mid-conversation_test;I'd be happy to help you with your request, but I'm afraid I'm only able to assist with updating quote information. I'm not able to help with canceling subscriptions. Can I help you with something else instead?;Jose;5;7;9.0;9.0;9.0;;;
+1;Context_switch_to_product_inquiry_test;"I'd be happy to help you update the address for quote 98765. 
+
+To proceed with the changes, please let me know what information you'd like to update. It could be the country, city, street, door number, postal code, or state. Just tell me the new details, and I'll assist you accordingly.";Jose;8;7;10.0;10.0;10.0;;;
+1;Context_switch_to_technical_issue_report_test;I'd be happy to help you update your address. To get started, can you please provide me with your quote_id?;Jose;10;10;10.0;10.0;10.0;;;
+1;Conversation_with_multiple_field_corrections_test;To update your shipping address for the quote, I'll need to know the quote ID associated with your order. Can you please tell me the quote ID?;Jose;10;10;10.0;10.0;10.0;;;
+1;Incomplete_information_and_switch_to_delivery_inquiry_test;You want to update the information for quote 345678.  To proceed, I just need to know what information you'd like to update. Please provide the new details for the address.;Jose;8;8;10.0;10.0;10.0;;;
+1;Incorrect_phone_number_format_test;"I'm here to help you update your quote information. 
+
+To proceed, I need your quote ID. Please provide it so I can assist you.";Jose;1;1;7.0;10.0;10.0;;;
+1;Incorrect_quote_id_format_test;"I'd be happy to help you with updating the quote information for QTE123ABC.
+
+However, I need you to provide the new information you'd like to update. You can change any of the following details:
+
+Country, City, Street, Door Number, Postal Code, or State.
+
+Please let me know the new information, and I'll be happy to assist you.";Jose;8;6;10.0;8.0;10.0;;;
+1;Mid-conversation_context_switch_to_unrelated_request_test;You are updating the shipping address for quote 123456. To assist you, I'll need to update the quote information with the new details. Please provide me with the details you'd like to change, such as the country, city, street, door number, postal code, or state.;Jose;6;8;10.0;10.0;10.0;;;
+1;Mid-conversation_retraction_of_request_test;I can't help with that. I'm here to assist with updating quote information. If you need to update any details, please provide your quote_id.;Jose;10;7;10.0;10.0;10.0;;;
+1;Mid-conversation_switch_to_a_cancellation_request_test;You are updating the quote 987123. To proceed, please provide the new information you would like to update, such as country, city, street, door number, postal code, or state.;Jose;10;8;10.0;9.0;10.0;;;
+1;Out-of-scope_payment_inquiry_test;I'm afraid I can only help with updating quote information. I'm not capable of assisting with payments or any other tasks. If you need to update your quote, please provide me with your quote ID so I can assist you.;Jose;10;8;10.0;5.0;10.0;;;
+1;Query_about_alternative_payment_methods_test;I'd be happy to help you update your shipping address. To get started, could you please provide me with your quote ID so I can look up your details?;Jose;10;10;10.0;10.0;10.0;;;
+1;Quote_id_test;How can I assist you with updating your shipping address? To proceed, I'll need to know your quote ID associated with the shipping address you'd like to update. Can you please provide me with the quote ID?;Jose;10;10;10.0;10.0;10.0;;;
+1;Random_question_about_personal_preferences_test;To update the information for quote 789654, please tell me the details you'd like to change, such as country, city, street, door number, postal code, or state.;Jose;10;10;10.0;10.0;10.0;;;
+1;_product_inquiries__test;I'm happy to help you with updating your quote information. However, I'm not able to assist with pricing information. Can you please provide your quote ID so I can assist you with updating the details?;Jose;10;10;10.0;4.0;10.0;;;
+1;quote_id_test_v2;I'm happy to help you update your quote information. To proceed, I'll need the quote ID associated with your account. Please provide the quote ID so we can proceed with the update.;Jose;10;10;10.0;10.0;10.0;;;
+2;Context_switch_to_product_inquiry_test;"The quote_id provided is correct. 
+
+Please double check if the following information is correct for quote 98765: 
+City (New York)
+Street (S Central Ave)
+Door Number (123A)
+Postal Code (654321)
+State (NY)
+
+If everything is correct, I'll update the information.";Jose;10;6;10.0;10.0;10.0;;;
+2;Context_switch_to_technical_issue_report_test;It seems that you don't have the quote_id. Please try to recall it or find the information.;Jose;10;10;10.0;10.0;10.0;;;
+2;Conversation_with_multiple_field_corrections_test;Now that we have the quote ID, what are the new shipping address details you'd like to update? Please let me know the new information for the relevant fields.;Jose;8;6;10.0;10.0;10.0;;;
+2;Incomplete_information_and_switch_to_delivery_inquiry_test;Before I update the information, could you please confirm that the quote ID is 345678 and that the new address details are: Country, City: San Francisco, Street: Pine Street.;Jose;8;5;10.0;10.0;10.0;;;
+2;Incorrect_quote_id_format_test;"It seems like you need help with something else, but I can only assist with updating the quote information for QTE123ABC. 
+
+Can you please provide the new information you'd like to update (Country, City, Street, Door Number, Postal Code, or State)?";Jose;6;1;10.0;4.0;5.0;;;
+2;Mid-conversation_context_switch_to_unrelated_request_test;I just want to make sure everything is correct before I update the quote information. You provided a quote ID of 123456 and the new address as S Western Ave, 201B, Los Angeles, CA, USA, 98765. Is this correct?;Jose;7;9;10.0;10.0;10.0;;;
+2;Query_about_alternative_payment_methods_test;Now that I have your quote ID, what changes would you like to make to your shipping address?;Jose;10;10;10.0;10.0;10.0;;;
+2;Quote_id_test;Can you try to recall the quote ID associated with your shipping address? If you're unable to find it, could you please let me know if the quote ID starts with a number, letter or a combination of both?;Jose;8;5;10.0;6.0;6.0;;;
+2;Random_question_about_personal_preferences_test;"The quote_id 789654 has the new address: S Western Ave, 201B, Los Angeles, CA, USA, 90001.
+
+Have you double-checked that the information you provided is correct, except for the quote_id 789654?";Jose;10;5;10.0;10.0;10.0;;;
+2;quote_id_test_v2;To proceed, I still need the quote ID. The address you provided is helpful information, but it's not what I'm looking for. Please provide the quote ID so I can assist you with the update.;Jose;6;10;10.0;9.0;10.0;;;
+3;Context_switch_to_product_inquiry_test;I can only assist with updating quote information. I'm unable to provide information on products or services.;Jose;10;10;10.0;10.0;10.0;;;
+3;Context_switch_to_technical_issue_report_test;I can only help with updating quote information. I won't be able to assist you with the app issues. If you're ready, please provide me with your quote_id to update your address.;Jose;10;10;10.0;10.0;10.0;;;
+3;Conversation_with_multiple_field_corrections_test;"I've updated the quote ID to 654321. Just to confirm, the new address details are: 
+ Street: Pine Street
+ City: San Francisco
+
+Are these details correct, except for the quote_id (which is already updated to 654321)?";Jose;7;4;10.0;10.0;10.0;;;
+3;Incomplete_information_and_switch_to_delivery_inquiry_test;Assistant: I can't help with that. I can only assist with updating information for a quote. Can you please confirm if the quote ID is 345678 and that the new address details are: Country, City: San Francisco, Street: Pine Street, Door Number: 789 Apt 5, Postal Code: (please provide this new information), State: (please provide this new information).;Jose;8;7;10.0;10.0;10.0;;;
+3;Mid-conversation_context_switch_to_unrelated_request_test;I can only assist with updating quote information. I'm unable to help with information regarding the arrival time of your order. If you have any other questions about your quote, I'll be happy to help with that.;Jose;10;10;10.0;10.0;10.0;;;
+3;Query_about_alternative_payment_methods_test;I have updated the quote with the new address. Please confirm that the quote ID is 654321 and the new address is Pine Street, San Francisco, but I need to confirm that the other information such as Country, City, Street, Door Number, Postal Code, State is the same as the previous one.;Jose;6;4;9.0;10.0;10.0;;;
+3;Quote_id_test;That doesn't appear to be a valid quote ID. Can you please try again?;Jose;6;10;10.0;10.0;10.0;;;
+3;Random_question_about_personal_preferences_test;I cannot answer questions not related to updating quote information. Can you please provide a valid quote_id if you want to update the quote information?;Jose;10;10;10.0;10.0;10.0;;;
+3;quote_id_test_v2;This quote id was not found. Please re-enter a valid quote id.;Jose;10;10;10.0;10.0;10.0;;;
+4;Context_switch_to_product_inquiry_test;"I'd be happy to help you update the address for quote 98765.
+
+To proceed with the changes, please let me know what information you'd like to update. It could be the country, city, street, door number, postal code, or state. Just tell me the new details, and I'll assist you accordingly.";Jose;10;10;10.0;10.0;10.0;;;
+4;Conversation_with_multiple_field_corrections_test;I have updated the quote informations.;Jose;8;3;10.0;10.0;10.0;;;
+4;Incomplete_information_and_switch_to_delivery_inquiry_test;You already have an open conversation for quote 345678. I'm here to help.;Jose;8;6;9.0;8.0;10.0;;;
+4;Query_about_alternative_payment_methods_test;I can only help with updating quote information. I don't have any information about payment methods. I can help with your quote, though. Please provide me with the correct information to update.;Jose;10;10;10.0;8.0;10.0;;;
+4;Quote_id_test;I've noted down the quote ID as 123. To proceed with the updates, please confirm that the new shipping address is: S Central Ave, 123A, New York.;Jose;10;10;10.0;10.0;10.0;;;
+4;quote_id_test_v2;It’s 123. The new address is S Central Ave, 123A, New York, NY, USA, 654321.;Jose;1;1;1.0;1.0;1.0;;;
+5;Context_switch_to_product_inquiry_test;"Assistant: The quote_id provided is correct.
+
+Please double check if the following information is correct for quote 98765: 
+City (New York)
+Street (S Central Ave)
+Door Number (123A)
+Postal Code (654321)
+State (NY)
+
+If everything is correct, I'll update the information.";Jose;8;6;10.0;10.0;10.0;;;
+5;Incomplete_information_and_switch_to_delivery_inquiry_test;I need a valid quote_id to proceed. Please provide a valid quote_id so I can assist you.;Jose;7;1;10.0;10.0;10.0;;;
+5;Quote_id_test;Please confirm that the new City is New York and the new State is USA and the new Postal Code is 654321.;Jose;10;5;10.0;10.0;10.0;;;
+5;quote_id_test_v2;Yes, that’s correct.;Jose;10;10;10.0;10.0;10.0;;;
+6;Context_switch_to_product_inquiry_test;I can only assist with updating quote information. I'm unable to provide information on products or services.;Jose;10;10;10.0;10.0;10.0;;;
+6;Conversation_with_multiple_field_corrections_test;You've already updated your shipping address for quote 654321 earlier. Is there anything else I can assist you with?;Jose;5;3;;;;4.0;5.0;2.0
+6;Incomplete_information_and_switch_to_delivery_inquiry_test;I can't help with that. I can only assist with updating information for a quote. Please provide the quote ID again so I can continue assisting you.;Jose;8;7;10.0;10.0;10.0;;;
+7;Incomplete_information_and_switch_to_delivery_inquiry_test;"(I don't see a quote_id) 
+ I need a valid quote_id to proceed. Please provide a valid quote_id so I can assist you.";Jose;6;1;10.0;6.0;6.0;;;
